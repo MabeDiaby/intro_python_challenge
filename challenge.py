@@ -88,5 +88,8 @@ temp = int(input("What is the temperature?"))
 while temp > 75:
     print(f'The temperature is {temp} — crank the AC!')
     temp = temp - 3
+    # or
+    temperature -= 3
     if temp <= 75:
+        # or just the print part
         print("75. Ahh, that's better.")
