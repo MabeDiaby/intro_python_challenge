@@ -1,9 +1,17 @@
 ######################################################
 # Part 1: Most Clocks are Normal, But Some are Cuckoo
+time = int(input("What time is it using Miltary time?(0,23)"))
 
-time = 8
 # Complete the prompt here
 
+if time < 9:
+    print("Morning is wonderful. Its only drawback is that it comes at such an inconvenient time of day.")
+elif time <=16:
+    print("Working hard or hardly working?")
+elif time < 20:
+    print("How did it get so late so soon?")
+else:
+    print("Burning the midnight oil!")
 
 ######################################################
 # Part 2: I Came, I 'Saur, I Conquered
