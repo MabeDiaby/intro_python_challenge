@@ -14,52 +14,52 @@
 #     print("Burning the midnight oil!")
 
 ######################################################
-# Part 2: I Came, I 'Saur, I Conquered
+# # Part 2: I Came, I 'Saur, I Conquered
 
-angry = False
-bored = False
-hungry = True
-tired = True
+# angry = False
+# bored = False
+# hungry = True
+# tired = True
 
-# t_rex = input("How is T-Rex?")
+# # t_rex = input("How is T-Rex?")
 
-# Complete the prompt here
-# Example `if` statement:
-if bored:
-    print('T-Rex roars! RAWR!')
-if angry and hungry and bored:
-    print('T-Rex stummy growl! He eats the Triceratops')
-elif tired and hungry:
-    print('T-Rex stummy growl! He eats the Iguanadon and Yawns')
-elif hungry and bored:
-    print('T-Rex stummy growl! He eats the Stegasaurus T-Rex roars! RAWR!')
-elif tired:
-    print("T-rex yawns! He goes to sleep")
-elif angry and bored:
-    print("What ever will T-rex do? He fights with the Velociraptor")
-elif angry or bored:
-    print('T-Rex roars! RAWR!')
-else:
-    print('T-Rex gives a toothy smile')
+# # Complete the prompt here
+# # Example `if` statement:
+# if bored:
+#     print('T-Rex roars! RAWR!')
+# if angry and hungry and bored:
+#     print('T-Rex stummy growl! He eats the Triceratops')
+# elif tired and hungry:
+#     print('T-Rex stummy growl! He eats the Iguanadon and Yawns')
+# elif hungry and bored:
+#     print('T-Rex stummy growl! He eats the Stegasaurus T-Rex roars! RAWR!')
+# elif tired:
+#     print("T-rex yawns! He goes to sleep")
+# elif angry and bored:
+#     print("What ever will T-rex do? He fights with the Velociraptor")
+# elif angry or bored:
+#     print('T-Rex roars! RAWR!')
+# else:
+#     print('T-Rex gives a toothy smile')
     
-# or
+# # or
 
-if angry and hungry and bored:
-    print('T-Rex stummy growl! He eats the Triceratops')
-elif tired and hungry:
-    print('T-Rex stummy growl! He eats the Iguanadon and Yawns')
-elif hungry and bored:
-    print('T-Rex stummy growl! He eats the Stegasaurus T-Rex roars! RAWR!')
-elif tired:
-    print("T-rex yawns! He goes to sleep")
-elif angry and bored:
-    print("What ever will T-rex do? He fights with the Velociraptor")
-elif angry or bored:
-    print('T-Rex roars! RAWR!')
-elif bored:
-    print('T-Rex roars! RAWR!')
-else:
-    print('T-Rex gives a toothy smile')
+# if angry and hungry and bored:
+#     print('T-Rex stummy growl! He eats the Triceratops')
+# elif tired and hungry:
+#     print('T-Rex stummy growl! He eats the Iguanadon and Yawns')
+# elif hungry and bored:
+#     print('T-Rex stummy growl! He eats the Stegasaurus T-Rex roars! RAWR!')
+# elif tired:
+#     print("T-rex yawns! He goes to sleep")
+# elif angry and bored:
+#     print("What ever will T-rex do? He fights with the Velociraptor")
+# elif angry or bored:
+#     print('T-Rex roars! RAWR!')
+# elif bored:
+#     print('T-Rex roars! RAWR!')
+# else:
+#     print('T-Rex gives a toothy smile')
 
 ######################################################
 # Part 3: IOU
@@ -68,6 +68,16 @@ disney_characters = ['simba', 'ariel', 'pumba',
                      'flounder', 'nala', 'ursula', 'scar', 'flotsam', 'timon']
 
 # Complete the prompt here
+
+for name in disney_characters:
+    if 'u' in name:
+        print(f"{name}\nU are so Uniquely U!")
+    elif 'i' in name:
+        print(f"{name}\nI bet you're Impressively Intelligent!")
+    elif 'o' in name:
+        print(f"{name}\nO My! How Original!")
+    else:
+        print(f"{name}\nEhh, a's and e's are so ordinary.")
 
 ######################################################
 # Part 4: If You're Cold, Sit in a Corner. It's 90 Degrees!
